@@ -1,1 +1,15 @@
-yoo
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+    Name = "",
+    LoadingSubTitle = game.Players.LocalPlayer.Name,
+    LoadingTitle = "SGXR Public SCRIPT",
+    ConfigurationSaving = {
+       Enabled = false
+    }
+})
+local Tab = Window:CreateTab("Main", "Bot")
+local Tab = Window:CreateTab("Auto farm", "fan")
+local Tab = Window:CreateTab("Auto weights", "dumbbell")
+local Tab = Window:CreateTab("Rocks", "rocket")
+local Tab = Window:CreateTab("Gyms", "align-horizontal-justify-start")
+local Tab = Window:CreateTab("Credits", "badge-check")
