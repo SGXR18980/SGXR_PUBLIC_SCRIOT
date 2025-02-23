@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
     Name = "SGXR PUBLIC",
     LoadingSubTitle = game.Players.LocalPlayer.Name,
-    LoadingTitle = "SGXR Public SCRIPT",
+    LoadingTitle = "SGXR PUBLIC",
     ConfigurationSaving = {
        Enabled = false
     }
